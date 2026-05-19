@@ -1,0 +1,46 @@
+.destinos ul li,
+.dicas ul li {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    margin-bottom: 0.85rem;
+    padding: 1rem 1.1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.destinos ul li:hover,
+.dicas ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+}
+
+.destinos a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.destinos a:hover {
+    text-decoration: underline;
+}
+
+.destinos,
+    .dicas {
+        padding: 1.25rem;
+    }
+
+.destinos,
+.dicas {
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.destinos h2,
+.dicas h2 {
+    font-size: 1.65rem;
+    color: #0f172a;
+    margin-bottom: 1rem;
+}
