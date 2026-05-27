@@ -45,7 +45,7 @@
     margin-bottom: 1rem;
 }
 
-img {
-    width: "500";
-    height: "300";
+.destinos img {
+    width: 500px;
+    height: 300px;
 }
