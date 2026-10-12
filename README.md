@@ -1,76 +1,66 @@
-# 🚗 Relíquia sobre Rodas — Catálogo de Carros Antigos
+# 🌍 Projeto Viagens — Destinos e Dicas
 
-Um projeto web dedicado aos apaixonados por automóveis clássicos, reunindo modelos históricos e informações sobre a evolução dos carros em uma interface visual personalizada.
+Um site informativo para quem busca inspiração para conhecer destinos ao redor do mundo e se preparar melhor para uma viagem.
 
 ## 📖 Sobre o projeto
 
-O **Relíquia sobre Rodas** é um site desenvolvido para apresentar carros antigos e explorar um pouco da história do automóvel. O projeto busca combinar conteúdo informativo com uma interface estilizada, proporcionando uma experiência visual agradável para os visitantes.
-
-Desenvolvido como parte dos estudos de Desenvolvimento Web, o projeto permite aplicar conhecimentos de estruturação de páginas, estilização e organização de conteúdo.
+O **Projeto Viagens** apresenta uma seleção de países e reúne dicas práticas de planejamento. Cada destino possui uma página própria, permitindo organizar informações de forma simples e visual.
 
 ## ✨ Funcionalidades
 
-- 🚘 Apresentação de carros antigos.
-- 🏁 Seção dedicada à história do automóvel.
-- 🖼️ Exibição de imagens dos veículos.
-- 🎨 Interface personalizada com CSS.
-- 🔤 Utilização de fontes personalizadas.
-- 📱 Organização visual do conteúdo para facilitar a navegação.
+- 🗺️ Lista de destinos para visitar.
+- 🌎 Páginas dedicadas ao Egito, Estados Unidos, Grécia, Japão e Tailândia.
+- 🧳 Dicas para preparar a mala e organizar documentos.
+- 🔋 Sugestões de planejamento, mapas offline e formas de pagamento.
+- 🎨 Interface organizada com CSS.
 
 ## 🛠️ Tecnologias utilizadas
 
-- **HTML5:** estrutura e organização do conteúdo.
-- **CSS3:** estilização, cores, fontes e layout.
-- **Google Fonts:** tipografia personalizada.
+- **HTML5:** estrutura das páginas.
+- **CSS3:** estilos e layout.
 
 ## 📂 Estrutura do projeto
 
 ```text
-projeto_carros/
+projetoViagens/
 ├── index.html
+├── egito.html
+├── eua.html
+├── grecia.html
+├── japao.html
+├── tailandia.html
 ├── css/
-│   └── style.css
+│   ├── style.css
+│   ├── destinos.css
+│   └── header.css
 ├── img/
-│   └── imagens dos veículos
 └── README.md
 ```
-
-*Observação: a estrutura acima é ilustrativa e deve ser ajustada para corresponder às pastas e aos arquivos reais do repositório.*
 
 ## 🚀 Como executar o projeto
 
 1. Clone o repositório:
-
    ```bash
-   git clone https://github.com/yhaguihara/projeto_carros.git
+   git clone https://github.com/yhaguihara/projetoViagens.git
    ```
-
-2. Acesse a pasta:
-
+2. Entre na pasta:
    ```bash
-   cd projeto_carros
+   cd projetoViagens
    ```
+3. Abra o arquivo `index.html` no navegador.
 
-3. Abra o arquivo `index.html` em seu navegador.
-
-Não é necessário instalar dependências para executar uma página estática básica em HTML e CSS.
+Não é necessário instalar dependências para executar a versão estática.
 
 ## 🎯 Objetivo de aprendizagem
 
-Este projeto tem como objetivo praticar conceitos fundamentais do desenvolvimento web, incluindo:
-
-- Estruturação de páginas com HTML.
-- Estilização e organização de layouts com CSS.
-- Aplicação de fontes e recursos visuais.
-- Organização de arquivos e diretórios.
-- Utilização do GitHub para versionamento e apresentação de projetos.
+Praticar a criação de páginas HTML interligadas, a navegação entre destinos e a organização da apresentação visual com CSS.
 
 ## 👨‍💻 Autor
 
 **Yuri Haguihara**
 
 - GitHub: [@yhaguihara](https://github.com/yhaguihara)
-- Repositório: [projeto_carros](https://github.com/yhaguihara/projeto_carros)
+- Repositório: [projetoViagens](https://github.com/yhaguihara/projetoViagens)
 
 ---
 
